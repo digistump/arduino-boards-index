@@ -8,8 +8,103 @@
          "help":{
             "online":"https://digistump.com/board"
          },
-         "platforms":[],
-         "tools":[]
+         "platforms":[
+         {
+          "name": "Digistump AVR Boards",
+          "architecture": "avr",
+          "version": "1.5.4",
+          "category": "Digistump",
+          "url": "https://github.com/boneskull/digistump-board-index/releases/download/v1.5.4/digistump-avr.tar.bz2",
+          "archiveFileName": "digistump-avr.tar.bz2",
+          "checksum": "SHA-256:19a0afe056a4d4d713db6dacd3bb6311364a7a88298417378cec71749076e1ca",
+          "size": "1812199",
+          "help": {
+            "online": "https://github.com/boneskull/digistump-board-index/issues"
+          },
+          "boards": [
+            {
+              "name": "Digispark (Default - 16.5mhz)"
+            },
+            {
+              "name": "Digispark Pro (Default 16 Mhz)"
+            },
+            {
+              "name": "Digispark Pro (16 Mhz) (32 byte buffer)"
+            },
+            {
+              "name": "Digispark Pro (16 Mhz) (64 byte buffer)"
+            },
+            {
+              "name": "Digispark (16mhz - No USB)"
+            },
+            {
+              "name": "Digispark (8mhz - No USB)"
+            },
+            {
+              "name": "Digispark (1mhz - No USB)"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "digistump",
+              "name": "micronucleus",
+              "version": "1.11"
+            }
+          ]
+        },
+        {
+          "name": "Digistump SAM Boards (32-bits ARM Cortex-M3)",
+          "architecture": "sam",
+          "version": "1.6.4",
+          "category": "Digistump",
+          "url": "http://downloads.arduino.cc/cores/sam-1.6.4.tar.bz2",
+          "archiveFileName": "sam-1.6.4.tar.bz2",
+          "checksum": "SHA-256:e0dc94d8ad0756b79838e99ad7409b08b07e40ed667ebe86eae11644ef7bec0d",
+          "size": "16174992",
+          "boards": [
+            {"name": "Digistump DigiX"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.3a-arduino"
+            }
+          ]
+        }
+         ],
+         "tools":[
+            {
+             "name": "micronucleus",
+             "version": "1.11",
+             "systems": [
+               {
+                 "host": "x86_64-apple-darwin",
+                 "archiveFileName": "micronucleus-1.11-darwin.tar.bz2",
+                 "url": "https://github.com/boneskull/digistump-board-index/releases/download/micronucleus-1.11/micronucleus-1.11-darwin.tar.bz2",
+                 "checksum": "SHA-256:262e0cc6977f95ae2d2b76254ac26c2148f603a315927cc424ec4e52ffd783e8",
+                 "size": "38000"
+               },
+               {
+                 "host": "i686-mingw32",
+                 "archiveFileName": "micronucleus-1.11-windows.tar.bz2",
+                 "url": "https://github.com/boneskull/digistump-board-index/releases/download/micronucleus-1.11/micronucleus-1.11-windows.tar.bz2",
+                 "checksum": "SHA-256:4e8c423fde901071259d679c3aaef97cf57c5229286057e40b73ffd4daffbf7a",
+                 "size": "13224"
+               }
+             ]
+           }
+         ]
       }
    ]
 }

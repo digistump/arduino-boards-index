@@ -16,7 +16,7 @@
           "category": "Digistump",
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-avr.zip",
           "archiveFileName": "digistump-avr.zip",
-          "checksum": "SHA-256:a4e70c9e7c9a88c51b33e88570be02ef7ba9f5e8e16d3af164dc31f755b2f1e3",
+          "checksum": "SHA-256:e08136b7608417be08bc6dc7df096d0850ae330e0dfe4e37f603bac5f5e55dc4",
           "size": "2493142",
           "help": {
             "online": "https://github.com/digistump/DigistumpArduino/issues"
@@ -64,7 +64,7 @@
           "category": "Digistump",
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-sam.zip",
           "archiveFileName": "digistump-sam.zip",
-          "checksum": "SHA-256:8720855a50379d5f693c260dead97a1b3c4dc3346125001b4abd2c0f949b618c",
+          "checksum": "SHA-256:ee33414a146823f8cd31a73a5a8a898650901909286eb2b32749d570e96f474c",
           "size": "22037559",
           "help": {
             "online": "https://github.com/digistump/DigistumpArduino/issues"

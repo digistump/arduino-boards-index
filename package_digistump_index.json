@@ -12,7 +12,7 @@
          {
           "name": "Digistump AVR Boards",
           "architecture": "avr",
-          "version": "1.6.5a",
+          "version": "1.6.5",
           "category": "Digistump",
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-avr.zip",
           "archiveFileName": "digistump-avr.zip",
@@ -60,7 +60,7 @@
         {
           "name": "Digistump SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
-          "version": "1.6.5a",
+          "version": "1.6.5",
           "category": "Digistump",
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-sam.zip",
           "archiveFileName": "digistump-sam.zip",

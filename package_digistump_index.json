@@ -1,0 +1,15 @@
+{
+   "packages":[
+      {
+         "name":"digistump",
+         "maintainer":"Digistump",
+         "websiteURL":"http://digistump.com",
+         "email":"support@digistump.com",
+         "help":{
+            "online":"https://digistump.com/board"
+         },
+         "platforms":[],
+         "tools":[]
+      }
+   ]
+}

@@ -16,7 +16,7 @@
           "category": "Digistump",
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-avr.zip",
           "archiveFileName": "digistump-avr.zip",
-          "checksum": "SHA-256:e08136b7608417be08bc6dc7df096d0850ae330e0dfe4e37f603bac5f5e55dc4",
+          "checksum": "SHA-256:888763c0e1f7f9505f8bb7347d92d155760c5f13a912863e421540b25376c620",
           "size": "2493142",
           "help": {
             "online": "https://github.com/digistump/DigistumpArduino/issues"
@@ -74,12 +74,12 @@
           ],
           "toolsDependencies": [
             {
-              "packager": "arduino",
+              "packager": "digistump",
               "name": "arm-none-eabi-gcc",
               "version": "4.8.3-2014q1"
             },
             {
-              "packager": "arduino",
+              "packager": "digistump",
               "name": "bossac",
               "version": "1.3a-arduino"
             }
@@ -95,34 +95,102 @@
                  "host": "x86_64-apple-darwin",
                  "archiveFileName": "micronucleus-2.0a4-osx.zip",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.zip",
-                 "checksum": "SHA-256:8f797c95fc952af9107ace741967138b7224a80adac41a366116f6279f881d8d",
+                 "checksum": "SHA-256:306505e99fa7d885fe16ae82d2eea447890cd01f9be1b4a9c7dd172a6303713e",
                  "size": "47443"
                },
                {
                  "host": "i686-mingw32",
-                 "archiveFileName": "micronucleus-2.0a4-windows.zip",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-windows.zip",
-                 "checksum": "SHA-256:077983c5b12182f47b734a27fdbefbb2c0cd8e842f8ff790888e67f4d08d407d",
+                 "archiveFileName": "micronucleus-2.0a4-win.zip",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
+                 "checksum": "SHA-256:df51224b64595b633c6f37fa3953bfcb61bdcafcc703a1c4f0d9ec0b42fa3d96",
                  "size": "27219"
                },
                {
                  "host": "i686-linux-gnu",
                  "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
-                 "checksum": "SHA-256:a7d13034c67ba2649120d4d55ed2b9d5c67123cfc84a4c92a3ca2764e9d2dc07",
+                 "checksum": "SHA-256:7f2ef39fcc84cc84baac3c29cc1cac1b15399f3e799e7708f8bdc46780ad0e70",
                  "size": "16732"
                },
                {
                  "host": "x86_64-linux-gnu",
                  "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
-                 "checksum": "SHA-256:85960c54fbb243f325f78178746d7cbc89000210854cbac9162730aafe300054",
+                 "checksum": "SHA-256:7ee734ee06f629922c6d2ff1b66110606996a527a6677469f66693c692c3b231",
                  "size": "17120"
                }
 
              ]
-           }
-         ]
+           },
+           {
+          "name": "arm-none-eabi-gcc",
+          "version": "4.8.3-2014q1",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-windows.tar.gz",
+              "checksum": "SHA-256:fd8c111c861144f932728e00abd3f7d1107e186eb9cd6083a54c7236ea78b7c2",
+              "size": "84537449"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-mac.tar.gz",
+              "checksum": "SHA-256:3598acf21600f17a8e4a4e8e193dc422b894dc09384759b270b2ece5facb59c2",
+              "size": "52518522"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux64.tar.gz",
+              "checksum": "SHA-256:d23f6626148396d6ec42a5b4d928955a703e0757829195fa71a939e5b86eecf6",
+              "size": "51395093"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "archiveFileName": "gcc-arm-none-eabi-4.8.3-2014q1-linux32.tar.gz",
+              "checksum": "SHA-256:ba1994235f69c526c564f65343f22ddbc9822b2ea8c5ee07dd79d89f6ace2498",
+              "size": "51029223"
+            }
+          ]
+        },
+        {
+          "name": "bossac",
+          "version": "1.3a-arduino",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
+              "archiveFileName": "bossac-1.3a-arduino-i686-linux-gnu.tar.bz2",
+              "checksum": "SHA-256:d6d10362f40729a7877e43474fcf02ad82cf83321cc64ca931f5c82b2d25d24f",
+              "size": "147359"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
+              "archiveFileName": "bossac-1.3a-arduino-x86_64-pc-linux-gnu.tar.bz2",
+              "checksum": "SHA-256:c1daed033251296768fa8b63ad283e053da93427c0f3cd476a71a9188e18442c",
+              "size": "26179"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-i686-mingw32.tar.bz2",
+              "archiveFileName": "bossac-1.3a-arduino-i686-mingw32.tar.bz2",
+              "checksum": "SHA-256:a37727622e0f86cb4f2856ad0209568a5d804234dba3dc0778829730d61a5ec7",
+              "size": "265647"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "http://downloads.arduino.cc/tools/bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
+              "archiveFileName": "bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
+              "checksum": "SHA-256:40770b225753e7a52bb165e8f37e6b760364f5c5e96048168d0178945bd96ad6",
+              "size": "39475"
+            }
+          ]
+        }
+        ]
       }
    ]
 }

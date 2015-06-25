@@ -17,7 +17,7 @@
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-avr.zip",
           "archiveFileName": "digistump-avr.zip",
           "checksum": "SHA-256:888763c0e1f7f9505f8bb7347d92d155760c5f13a912863e421540b25376c620",
-          "size": "2493142",
+          "size": "2491715",
           "help": {
             "online": "https://github.com/digistump/DigistumpArduino/issues"
           },
@@ -65,7 +65,7 @@
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-sam.zip",
           "archiveFileName": "digistump-sam.zip",
           "checksum": "SHA-256:efc1729f59d305f94b6d0e56bfe82798227490885c2ef62c95740a41713af2ca",
-          "size": "22037559",
+          "size": "22030737",
           "help": {
             "online": "https://github.com/digistump/DigistumpArduino/issues"
           },
@@ -73,6 +73,11 @@
             {"name": "Digistump DigiX"}
           ],
           "toolsDependencies": [
+            {
+              "packager": "digistump",
+              "name": "micronucleus",
+              "version": "2.0a4"
+            },
             {
               "packager": "digistump",
               "name": "arm-none-eabi-gcc",
@@ -96,28 +101,28 @@
                  "archiveFileName": "micronucleus-2.0a4-osx.zip",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.zip",
                  "checksum": "SHA-256:306505e99fa7d885fe16ae82d2eea447890cd01f9be1b4a9c7dd172a6303713e",
-                 "size": "47443"
+                 "size": "53469"
                },
                {
                  "host": "i686-mingw32",
                  "archiveFileName": "micronucleus-2.0a4-win.zip",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip",
-                 "checksum": "SHA-256:92d9021bd50ac38fcc4a9aefc26b5572f6a54bff5efa31a02c239657bd166405",
-                 "size": "27219"
+                 "checksum": "SHA-256:7738d2a2a46a13771ac567ca3797a4867bcb802e7ca12e41941448645b035c6c",
+                 "size": "1712001"
                },
                {
                  "host": "i686-linux-gnu",
                  "archiveFileName": "micronucleus-2.0a4-linux32.tar.gz",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux32.tar.gz",
                  "checksum": "SHA-256:7f2ef39fcc84cc84baac3c29cc1cac1b15399f3e799e7708f8bdc46780ad0e70",
-                 "size": "16732"
+                 "size": "21930"
                },
                {
                  "host": "x86_64-linux-gnu",
                  "archiveFileName": "micronucleus-2.0a4-linux64.tar.gz",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-linux64.tar.gz",
                  "checksum": "SHA-256:7ee734ee06f629922c6d2ff1b66110606996a527a6677469f66693c692c3b231",
-                 "size": "17120"
+                 "size": "22849"
                }
 
              ]

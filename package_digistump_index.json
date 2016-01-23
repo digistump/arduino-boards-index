@@ -93,12 +93,12 @@
         {
           "name": "Oak by Digistump",
           "architecture": "oak",
-          "version": "0.9.0",
+          "version": "0.9.1",
           "category": "Digistump",
           "url": "https://github.com/digistump/OakCore/releases/download/0.9.0/core.zip",
           "archiveFileName": "core.zip",
-          "checksum": "SHA-256:917EE7AAF7DCA074B12163414CF6430DFD64D16CCB024671AA199A7B22258FCE",
-          "size": "5920865",
+          "checksum": "SHA-256:6C600D8EB8EAF1B28C10B2DE3A36FD908CB99FC358C53D48EF75F2779C4FEB74",
+          "size": "5922252",
           "help": {
             "online": "http://digistump.com/wiki/oak"
           },

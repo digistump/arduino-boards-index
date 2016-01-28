@@ -138,8 +138,8 @@
                  "host": "x86_64-apple-darwin",
                  "archiveFileName": "micronucleus-2.0a4-osx.zip",
                  "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.zip",
-                 "checksum": "SHA-256:306505e99fa7d885fe16ae82d2eea447890cd01f9be1b4a9c7dd172a6303713e",
-                 "size": "53469"
+                 "checksum": "SHA-256:7AB34FCA8F3D0ED23F04DB74212B52B6E99BF263AEC55ED416124A5986F3BB89",
+                 "size": "51887"
                },
                {
                  "host": "i686-mingw32",

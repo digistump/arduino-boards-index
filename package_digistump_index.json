@@ -93,12 +93,12 @@
         {
           "name": "Oak by Digistump",
           "architecture": "oak",
-          "version": "0.9.1",
+          "version": "0.9.2",
           "category": "Digistump",
-          "url": "https://github.com/digistump/OakCore/releases/download/0.9.0/core.zip",
-          "archiveFileName": "core.zip",
-          "checksum": "SHA-256:6C600D8EB8EAF1B28C10B2DE3A36FD908CB99FC358C53D48EF75F2779C4FEB74",
-          "size": "5922252",
+          "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/core-0.9.2.zip",
+          "archiveFileName": "core-0.9.2.zip",
+          "checksum": "SHA-256:93550DEF5E7C040DEBD63C93C38DA12842C6E0FF63878924EE57675B5C63E1A3",
+          "size": "5920959",
           "help": {
             "online": "http://digistump.com/wiki/oak"
           },
@@ -109,12 +109,12 @@
             {
               "packager": "digistump",
               "name": "oakcli",
-              "version": "0.9.0"
+              "version": "0.9.1"
             },
             {
               "packager": "digistump",
               "name": "esptool2",
-              "version": "0.9.0"
+              "version": "0.9.1"
             },
             {
               "packager": "digistump", 
@@ -235,69 +235,69 @@
         },
         {
           "name": "oakcli",
-          "version": "0.9.0",
+          "version": "0.9.1",
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.0/oakcli-linux32.tar.gz",
-              "archiveFileName": "oakcli-linux32.tar.gz",
-              "checksum": "SHA-256:D9696E68458CB1AE3F7A41F5B739A58B594F86E3C74573A1A13164049089E870",
-              "size": "6688431"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.1/oakcli-0.9.1-linux32.tar.gz",
+              "archiveFileName": "oakcli-0.9.1-linux32.tar.gz",
+              "checksum": "SHA-256:7126795F3413240DC0AB6A2D324FECB6CBA1A3837315B2183B4B0AC08E34E93C",
+              "size": "6687584"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.0/oakcli-linux64.tar.gz",
-              "archiveFileName": "oakcli-linux64.tar.gz",
-              "checksum": "SHA-256:9441951AB1E9C375D150BC7EE5097FE3FB6C411751D28E22EA54D77F41FC3FCF",
-              "size": "7173419"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.1/oakcli-0.9.1-linux64.tar.gz",
+              "archiveFileName": "oakcli-0.9.1-linux64.tar.gz",
+              "checksum": "SHA-256:4535C7D5B9368A51DFCCAF2FA73ECED5AE2914CA63C22B79CEC2607E0BD43C26",
+              "size": "7174738"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.0/oakcli-win.zip",
-              "archiveFileName": "oakcli-win32.zip",
-              "checksum": "SHA-256:008C3A15D544BAFFCA4E0CABD84F1EA876A30CC6900B2D8DF19912692DF6A461",
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.1/oakcli-0.9.1-win32.zip",
+              "archiveFileName": "oakcli-0.9.1-win32.zip",
+              "checksum": "SHA-256:D3DF2FA3DE3802FD6146FA236E8B2240F5893501D9AEA51E25829B91B3237238",
               "size": "3944232"
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.0/oakcli-osx.zip",
-              "archiveFileName": "oakcli-osx.zip",
-              "checksum": "SHA-256:FC25FDCA677D124EEA9D12113DF9FE5C54D5A0FE63D37FBEB6C9E6C7C4300DA0",
-              "size": "5672273"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.1/oakcli-0.9.1-osx.zip",
+              "archiveFileName": "oakcli-0.9.1-osx.zip",
+              "checksum": "SHA-256:16EFF8F1BD58AF9F768696FB01DE284FE20638D8C43533D9B7A58CCDFCA87240",
+              "size": "5663159"
             }
           ]
         },
         {
           "name": "esptool2",
-          "version": "0.9.0",
+          "version": "0.9.1",
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/digistump/OakCore/releases/download/0.9.0/esptool2-linux32.tar.gz",
-              "archiveFileName": "esptool2-linux32.tar.gz",
+              "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-linux32.tar.gz",
+              "archiveFileName": "esptool2-0.9.1-linux32.tar.gz",
               "checksum": "SHA-256:58727CB7D7CB9F0DA7DE85004C772D0BE1CDF2508E4202C01669B80296FC26C9",
               "size": "8577"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/digistump/OakCore/releases/download/0.9.0/esptool2-linux64.tar.gz",
-              "archiveFileName": "esptool2-linux64.tar.gz",
+              "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-linux64.tar.gz",
+              "archiveFileName": "esptool2-0.9.1-linux64.tar.gz",
               "checksum": "SHA-256:3A34BBC40879B912328CFF685F17AE7E995AA4FB8CD85FFB6865A2E9EB8276AF",
               "size": "8667"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/digistump/OakCore/releases/download/0.9.0/esptool2-win.zip",
-              "archiveFileName": "esptool2-win32.zip",
+              "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-win32.zip",
+              "archiveFileName": "esptool2-0.9.1-win32.zip",
               "checksum": "SHA-256:648772172E9895FA12502EF0152EFA1176775949CE9AF8E5E0D989BA774C2E14",
               "size": "7859"
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCore/releases/download/0.9.0/esptool2-osx.zip",
-              "archiveFileName": "esptool2-osx.zip",
-              "checksum": "SHA-256:FF174655D5D3EA69D5C585D80E2E622040EE39A5D460351D78B8CD7C20724F34",
-              "size": "6680"
+              "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-osx.zip",
+              "archiveFileName": "esptool2-0.9.1-osx.zip",
+              "checksum": "SHA-256:F884A1DBD06D2ADE463459BEFD466E87FDA21E19CC7491DCADE6D1F58E72BDF1",
+              "size": "6648"
             }
           ]
         },

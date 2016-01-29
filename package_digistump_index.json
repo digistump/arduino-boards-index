@@ -136,10 +136,10 @@
              "systems": [
                {
                  "host": "x86_64-apple-darwin",
-                 "archiveFileName": "micronucleus-2.0a4-osx.zip",
-                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.zip",
-                 "checksum": "SHA-256:7AB34FCA8F3D0ED23F04DB74212B52B6E99BF263AEC55ED416124A5986F3BB89",
-                 "size": "51887"
+                 "archiveFileName": "micronucleus-2.0a4-osx.tar.gz",
+                 "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-osx.tar.gz",
+                 "checksum": "SHA-256:B5EB0C7B251CD88F4816186BB931855834141E71A28D90FB9E46788E483AA421",
+                 "size": "51203"
                },
                {
                  "host": "i686-mingw32",
@@ -260,10 +260,10 @@
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.1/oakcli-0.9.1-osx.zip",
-              "archiveFileName": "oakcli-0.9.1-osx.zip",
-              "checksum": "SHA-256:EDDC70DA23B802278858F81BA3A6981C492703DED927F6A6B4ECFF5A404CF8AA",
-              "size": "5672175"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.1/oakcli-0.9.1-osx.tar.gz",
+              "archiveFileName": "oakcli-0.9.1-osx.tar.gz",
+              "checksum": "SHA-256:DF71EB50BCF73D0A7BDD0C8012078016C997D3405E1A54778BC10E43A1490898",
+              "size": "5662594"
             }
           ]
         },
@@ -294,10 +294,10 @@
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-osx.zip",
-              "archiveFileName": "esptool2-0.9.1-osx.zip",
-              "checksum": "SHA-256:F884A1DBD06D2ADE463459BEFD466E87FDA21E19CC7491DCADE6D1F58E72BDF1",
-              "size": "6648"
+              "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-osx.tar.gz",
+              "archiveFileName": "esptool2-0.9.1-osx.tar.gz",
+              "checksum": "SHA-256:A30EAF00102DF2BE9DEF9CDC0320F116C6A3629069917C9537A37871ADC09AC1",
+              "size": "6746"
             }
           ]
         },

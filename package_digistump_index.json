@@ -15,7 +15,7 @@
           "version": "1.6.7",
           "category": "Digistump",
           "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/digistump-avr-1.6.7.zip",
-          "archiveFileName": "digistump-avr.zip",
+          "archiveFileName": "digistump-avr-1.6.7.zip",
           "checksum": "SHA-256:7F7E9F5AB982163F7A792C411326F0192A35B8A90890B7934F2F424A5426583D",
           "size": "2491070",
           "help": {
@@ -60,12 +60,12 @@
         {
           "name": "Digistump SAM Boards (32-bits ARM Cortex-M3)",
           "architecture": "sam",
-          "version": "1.6.5",
+          "version": "1.6.7",
           "category": "Digistump",
-          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/digistump-sam.zip",
-          "archiveFileName": "digistump-sam.zip",
-          "checksum": "SHA-256:efc1729f59d305f94b6d0e56bfe82798227490885c2ef62c95740a41713af2ca",
-          "size": "22030737",
+          "url": "https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/digistump-sam-1.6.7.zip",
+          "archiveFileName": "digistump-sam-1.6.7.zip",
+          "checksum": "SHA-256:C091CA9372220E18394AD7876A919201705BB281167309A2571270E374DB2698",
+          "size": "21937559",
           "help": {
             "online": "https://github.com/digistump/DigistumpArduino/issues"
           },

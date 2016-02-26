@@ -93,25 +93,23 @@
         {
           "name": "Oak by Digistump",
           "architecture": "oak",
-          "version": "0.9.4",
+          "version": "0.9.3",
           "category": "Digistump",
-          "url": "https://github.com/digistump/OakCore/releases/download/0.9.4/core-0.9.4.zip",
-          "archiveFileName": "core-0.9.4.zip",
-          "checksum": "SHA-256:54ACF1B7B42827B0B9A0A2BC9B49441E790FA0DFAF6AB8E0077B4A092C913B51",
-          "size": "6881561",
+          "url": "https://github.com/digistump/OakCore/releases/download/0.9.3/core-0.9.3.zip",
+          "archiveFileName": "core-0.9.3.zip",
+          "checksum": "SHA-256:CDD0A6DFDBC66783B444636D64E7372E0A31F05642F225DB546BC778DD8041F4",
+          "size": "6874914",
           "help": {
             "online": "http://digistump.com/wiki/oak"
           },
           "boards": [
-            {"name": "Oak by Digistump (Pin 6 Safe Mode - Default)"},
-            {"name": "Oak by Digistump (Pin 1 Safe Mode - Alternative)"},
-            {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+            {"name": "Oak by Digistump"}
           ],
           "toolsDependencies": [
             {
               "packager": "digistump",
               "name": "oakcli",
-              "version": "0.9.4"
+              "version": "0.9.3"
             },
             {
               "packager": "digistump",
@@ -237,35 +235,35 @@
         },
         {
           "name": "oakcli",
-          "version": "0.9.4",
+          "version": "0.9.3",
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.4/oakcli-0.9.4-linux32.tar.gz",
-              "archiveFileName": "oakcli-0.9.4-linux32.tar.gz",
-              "checksum": "SHA-256:FA42E0B71C0B12E2FACA1657CA422C1AC621C50C6601177285A2EE6FF4B8DCF3",
-              "size": "5671013"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-linux32.tar.gz",
+              "archiveFileName": "oakcli-0.9.3-linux32.tar.gz",
+              "checksum": "SHA-256:40E291F1CF2DD4FC2A350EA4FA78EB60B997CF5E9703A29D55C37349C2E950D3",
+              "size": "6712936"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.4/oakcli-0.9.4-linux64.tar.gz",
-              "archiveFileName": "oakcli-0.9.4-linux64.tar.gz",
-              "checksum": "SHA-256:9D85342C30EF061661AD51A4ECCC880AD6C86CEF0D0702B91640CE05ACC412E0",
-              "size": "5888151"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-linux64.tar.gz",
+              "archiveFileName": "oakcli-0.9.3-linux64.tar.gz",
+              "checksum": "SHA-256:92EC152B2D03348E756E24F38AFA3B5E6D127F1A04E32A816CE9EA8C5441B60E",
+              "size": "7156385"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.4/oakcli-0.9.4-win32.zip",
-              "archiveFileName": "oakcli-0.9.4-win32.zip",
-              "checksum": "SHA-256:FB873029415BABB8DB57956DF9344448894C535B8F2B2F44160CD07F0F922D10",
-              "size": "3218563"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-win32.zip",
+              "archiveFileName": "oakcli-0.9.3-win32.zip",
+              "checksum": "SHA-256:191C928D9D5BF2592A3B07D2A8C5F4C52454A0C2E7A3BED2C96AA9A09BC8B6C5",
+              "size": "3947852"
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.4/oakcli-0.9.4-osx.tar.gz",
-              "archiveFileName": "oakcli-0.9.4-osx.tar.gz",
-              "checksum": "SHA-256:FC2EEAA73993C1D2178A1969956250C2C807F4E99DC4A3ECC6783CCBA29E51B3",
-              "size": "4551710"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-osx.tar.gz",
+              "archiveFileName": "oakcli-0.9.3-osx.tar.gz",
+              "checksum": "SHA-256:AEA6A912F495D273E3C62BDF99DA08A9F6E5D2A4B023582E9F07ABDF2C030116",
+              "size": "5666963"
             }
           ]
         },

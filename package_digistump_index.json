@@ -93,23 +93,24 @@
         {
           "name": "Oak by Digistump",
           "architecture": "oak",
-          "version": "0.9.3",
+          "version": "0.9.5",
           "category": "Digistump",
-          "url": "https://github.com/digistump/OakCore/releases/download/0.9.3/core-0.9.3.zip",
-          "archiveFileName": "core-0.9.3.zip",
-          "checksum": "SHA-256:CDD0A6DFDBC66783B444636D64E7372E0A31F05642F225DB546BC778DD8041F4",
-          "size": "6874914",
+          "url": "https://github.com/digistump/OakCore/releases/download/0.9.5/core-0.9.5.zip",
+          "archiveFileName": "core-0.9.5.zip",
+          "checksum": "SHA-256:76BB5FFE59BBEFC442C8F6BBA9F7BBF2858F69882EB3EE121D614B354F750DD3",
+          "size": "6879379",
           "help": {
             "online": "http://digistump.com/wiki/oak"
           },
           "boards": [
-            {"name": "Oak by Digistump"}
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+            {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
           ],
           "toolsDependencies": [
             {
               "packager": "digistump",
               "name": "oakcli",
-              "version": "0.9.3"
+              "version": "0.9.5"
             },
             {
               "packager": "digistump",
@@ -235,35 +236,35 @@
         },
         {
           "name": "oakcli",
-          "version": "0.9.3",
+          "version": "0.9.5",
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-linux32.tar.gz",
-              "archiveFileName": "oakcli-0.9.3-linux32.tar.gz",
-              "checksum": "SHA-256:40E291F1CF2DD4FC2A350EA4FA78EB60B997CF5E9703A29D55C37349C2E950D3",
-              "size": "6712936"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-linux32.tar.gz",
+              "archiveFileName": "oakcli-0.9.5-linux32.tar.gz",
+              "checksum": "SHA-256:688DF6F8DA320E64D403E8E4F468D9153F087CA0BD32FB94540F5737CB0A357F",
+              "size": "5670474"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-linux64.tar.gz",
-              "archiveFileName": "oakcli-0.9.3-linux64.tar.gz",
-              "checksum": "SHA-256:92EC152B2D03348E756E24F38AFA3B5E6D127F1A04E32A816CE9EA8C5441B60E",
-              "size": "7156385"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-linux64.tar.gz",
+              "archiveFileName": "oakcli-0.9.5-linux64.tar.gz",
+              "checksum": "SHA-256:F02A5ADBEA3BB1771ACB79A6B32FA19E251FA67FF1BDC878A66824978E64C995",
+              "size": "5888120"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-win32.zip",
-              "archiveFileName": "oakcli-0.9.3-win32.zip",
-              "checksum": "SHA-256:191C928D9D5BF2592A3B07D2A8C5F4C52454A0C2E7A3BED2C96AA9A09BC8B6C5",
-              "size": "3947852"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-win32.zip",
+              "archiveFileName": "oakcli-0.9.5-win32.zip",
+              "checksum": "SHA-256:BCFAAA8B16794F30557ED6BA4529D8B956F9F7936475E0A748DAD88E7E48917F",
+              "size": "3218847"
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.3/oakcli-0.9.3-osx.tar.gz",
-              "archiveFileName": "oakcli-0.9.3-osx.tar.gz",
-              "checksum": "SHA-256:AEA6A912F495D273E3C62BDF99DA08A9F6E5D2A4B023582E9F07ABDF2C030116",
-              "size": "5666963"
+              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-osx.tar.gz",
+              "archiveFileName": "oakcli-0.9.5-osx.tar.gz",
+              "checksum": "SHA-256:FA59918069D49E7FE9B6EDB42912ED1E847D63E2B819BB9DBF79095D7A1F4240",
+              "size": "4552341"
             }
           ]
         },

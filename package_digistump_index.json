@@ -93,12 +93,12 @@
         {
           "name": "Oak by Digistump",
           "architecture": "oak",
-          "version": "0.9.5",
+          "version": "1.0.0",
           "category": "Digistump",
-          "url": "https://github.com/digistump/OakCore/releases/download/0.9.5/core-0.9.5.zip",
-          "archiveFileName": "core-0.9.5.zip",
-          "checksum": "SHA-256:76BB5FFE59BBEFC442C8F6BBA9F7BBF2858F69882EB3EE121D614B354F750DD3",
-          "size": "6879379",
+          "url": "https://github.com/digistump/OakCore/releases/download/1.0.0/core-1.0.0.zip",
+          "archiveFileName": "core-1.0.0.zip",
+          "checksum": "SHA-256:631C214AA1D6CD01794A47D53541433CE5AEE59159627A559E4293F78B3B8E45",
+          "size": "6879430",
           "help": {
             "online": "http://digistump.com/wiki/oak"
           },
@@ -110,7 +110,7 @@
             {
               "packager": "digistump",
               "name": "oakcli",
-              "version": "0.9.5"
+              "version": "1.0.0"
             },
             {
               "packager": "digistump",
@@ -236,35 +236,35 @@
         },
         {
           "name": "oakcli",
-          "version": "0.9.5",
+          "version": "1.0.0",
           "systems": [
             {
               "host": "i686-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-linux32.tar.gz",
-              "archiveFileName": "oakcli-0.9.5-linux32.tar.gz",
-              "checksum": "SHA-256:688DF6F8DA320E64D403E8E4F468D9153F087CA0BD32FB94540F5737CB0A357F",
-              "size": "5670474"
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.0/oakcli-1.0.0-linux32.tar.gz",
+              "archiveFileName": "oakcli-1.0.0-linux32.tar.gz",
+              "checksum": "SHA-256:234336092B287531E8143CAA06232F582424B49C193F19B1C7F0D85186F29ABB",
+              "size": "5688186"
             },
             {
               "host": "x86_64-pc-linux-gnu",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-linux64.tar.gz",
-              "archiveFileName": "oakcli-0.9.5-linux64.tar.gz",
-              "checksum": "SHA-256:F02A5ADBEA3BB1771ACB79A6B32FA19E251FA67FF1BDC878A66824978E64C995",
-              "size": "5888120"
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.0/oakcli-1.0.0-linux64.tar.gz",
+              "archiveFileName": "oakcli-1.0.0-linux64.tar.gz",
+              "checksum": "SHA-256:236F3F0A8CA77CDD7F58708A6292F9295E0B89EA33930FF6C108860EF68BD55B",
+              "size": "5905721"
             },
             {
               "host": "i686-mingw32",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-win32.zip",
-              "archiveFileName": "oakcli-0.9.5-win32.zip",
-              "checksum": "SHA-256:BCFAAA8B16794F30557ED6BA4529D8B956F9F7936475E0A748DAD88E7E48917F",
-              "size": "3218847"
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.0/oakcli-1.0.0-win32.zip",
+              "archiveFileName": "oakcli-1.0.0-win32.zip",
+              "checksum": "SHA-256:07D57550C7CF225D3CF6CC2CBA4089DA75FB79F9F7DA5CF41F0C882B89EA0DE9",
+              "size": "3233023"
             },
             {
               "host": "i386-apple-darwin11",
-              "url": "https://github.com/digistump/OakCLI/releases/download/0.9.5/oakcli-0.9.5-osx.tar.gz",
-              "archiveFileName": "oakcli-0.9.5-osx.tar.gz",
-              "checksum": "SHA-256:FA59918069D49E7FE9B6EDB42912ED1E847D63E2B819BB9DBF79095D7A1F4240",
-              "size": "4552341"
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.0/oakcli-1.0.0-osx.tar.gz",
+              "archiveFileName": "oakcli-1.0.0-osx.tar.gz",
+              "checksum": "SHA-256:6685772356743F7ABFEB516D25A8C62B427EA0AFDE2402BE39C09D0D0AF33B67",
+              "size": "4561638"
             }
           ]
         },

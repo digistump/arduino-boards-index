@@ -128,6 +128,46 @@
               "name": "mkspiffs"
             }
           ]
+        },
+        {
+          "name": "Oak by Digistump",
+          "architecture": "oak",
+          "version": "1.0.1",
+          "category": "Digistump",
+          "url": "https://github.com/digistump/OakCore/releases/download/1.0.1/core-1.0.1.zip",
+          "archiveFileName": "core-1.0.1.zip",
+          "checksum": "SHA-256:64A3EE39C91AB6BD7BE05685405F7D45A70A2B0E227B4DF930E9D8623B83CF39",
+          "size": "6881865",
+          "help": {
+            "online": "http://digistump.com/wiki/oak"
+          },
+          "boards": [
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+            {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "digistump",
+              "name": "oakcli",
+              "version": "1.0.1"
+            },
+            {
+              "packager": "digistump",
+              "name": "esptool2",
+              "version": "0.9.1"
+            },
+            {
+              "packager": "digistump", 
+              "version": "1.20.0-26-gb404fb9-2", 
+              "name": "xtensa-lx106-elf-gcc"
+            }, 
+            {
+              "packager": "digistump", 
+              "version": "0.1.2", 
+              "name": "mkspiffs"
+            }
+          ]
         }
          ],
          "tools":[
@@ -231,6 +271,40 @@
               "archiveFileName": "bossac-1.3a-arduino-i386-apple-darwin11.tar.bz2",
               "checksum": "SHA-256:40770b225753e7a52bb165e8f37e6b760364f5c5e96048168d0178945bd96ad6",
               "size": "39475"
+            }
+          ]
+        },
+        {
+          "name": "oakcli",
+          "version": "1.0.1",
+          "systems": [
+            {
+              "host": "i686-linux-gnu",
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.1/oakcli-1.0.1-linux32.tar.gz",
+              "archiveFileName": "oakcli-1.0.1-linux32.tar.gz",
+              "checksum": "SHA-256:4050FBF159A4473E69DF9949236855E8EAD28D4379122DFD608E3F0AB2BAA13D",
+              "size": "5688406"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.1/oakcli-1.0.1-linux64.tar.gz",
+              "archiveFileName": "oakcli-1.0.1-linux64.tar.gz",
+              "checksum": "SHA-256:575256152F5F6483E34A42F900E3EC1FF2A779578C94A03001EBC746013E1B4B",
+              "size": "5905476"
+            },
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.1/oakcli-1.0.1-win32.zip",
+              "archiveFileName": "oakcli-1.0.1-win32.zip",
+              "checksum": "SHA-256:82CEA3AC89CC604F65141C27B08E2CD0574CF24786FBB5584B042ECCEE54852B",
+              "size": "3234116"
+            },
+            {
+              "host": "i386-apple-darwin11",
+              "url": "https://github.com/digistump/OakCLI/releases/download/1.0.1/oakcli-1.0.1-osx.tar.gz",
+              "archiveFileName": "oakcli-1.0.1-osx.tar.gz",
+              "checksum": "SHA-256:6564B415AF1235A9A68ED1AC0AA5342997057250B12CAFB1CE8DD9BFE4F587D9",
+              "size": "4565595"
             }
           ]
         },

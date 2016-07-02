@@ -212,12 +212,52 @@
         {
           "name": "Oak by Digistump",
           "architecture": "oak",
-          "version": "1.0.3.2",
+          "version": "1.0.3",
           "category": "Digistump",
-          "url": "https://github.com/digistump/OakCore/releases/download/1.0.3r2/core-1.0.3r2.zip",
-          "archiveFileName": "core-1.0.3r2.zip",
-          "checksum": "SHA-256:14AD43169425BE2B8591BD95EA94703DDBD326EC0A1B5CEC5CADC134DF6B2295",
-          "size": "6953491",
+          "url": "https://github.com/digistump/OakCore/releases/download/1.0.3/core-1.0.3.zip",
+          "archiveFileName": "core-1.0.3.zip",
+          "checksum": "SHA-256:AD14574F6DD9085C0874DCE255038F3C0C9F5417221F960ECD80E17E5AF063BE",
+          "size": "6947972",
+          "help": {
+            "online": "http://digistump.com/wiki/oak"
+          },
+          "boards": [
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+            {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "digistump",
+              "name": "oakcli",
+              "version": "1.0.2"
+            },
+            {
+              "packager": "digistump",
+              "name": "esptool2",
+              "version": "0.9.1"
+            },
+            {
+              "packager": "digistump", 
+              "version": "1.20.0-26-gb404fb9-2", 
+              "name": "xtensa-lx106-elf-gcc"
+            }, 
+            {
+              "packager": "digistump", 
+              "version": "0.1.2", 
+              "name": "mkspiffs"
+            }
+          ]
+        },
+        {
+          "name": "Oak by Digistump",
+          "architecture": "oak",
+          "version": "1.0.4",
+          "category": "Digistump",
+          "url": "https://github.com/digistump/OakCore/releases/download/1.0.4/core-1.0.4.zip",
+          "archiveFileName": "core-1.0.4.zip",
+          "checksum": "SHA-256:2ABFE8ABB54223032E3B3B852A869D2518AD4BBDC7119942D45B108A04F877EB",
+          "size": "6947979",
           "help": {
             "online": "http://digistump.com/wiki/oak"
           },
@@ -249,6 +289,7 @@
             }
           ]
         }
+
          ],
          "tools":[
             {

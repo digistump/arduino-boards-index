@@ -288,6 +288,46 @@
               "name": "mkspiffs"
             }
           ]
+        },
+        {
+          "name": "Oak by Digistump",
+          "architecture": "oak",
+          "version": "1.0.5",
+          "category": "Digistump",
+          "url": "https://github.com/digistump/OakCore/releases/download/1.0.5/core-1.0.5.zip",
+          "archiveFileName": "core-1.0.5.zip",
+          "checksum": "SHA-256:93FC1BFCC56DCCF7B6858DBB81F7B22D5C252B444947F57CCB898C62CE3AE96D",
+          "size": "6947985",
+          "help": {
+            "online": "http://digistump.com/wiki/oak"
+          },
+          "boards": [
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Default)"},
+            {"name": "Oak by Digistump (Pin 1 Safe Mode - Manual Config Only)"},
+            {"name": "Oak by Digistump (No Safe Mode - ADVANCED ONLY)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "digistump",
+              "name": "oakcli",
+              "version": "1.0.2"
+            },
+            {
+              "packager": "digistump",
+              "name": "esptool2",
+              "version": "0.9.1"
+            },
+            {
+              "packager": "digistump", 
+              "version": "1.20.0-26-gb404fb9-2", 
+              "name": "xtensa-lx106-elf-gcc"
+            }, 
+            {
+              "packager": "digistump", 
+              "version": "0.1.2", 
+              "name": "mkspiffs"
+            }
+          ]
         }
 
          ],

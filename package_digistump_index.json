@@ -86,7 +86,7 @@
             {
               "packager": "digistump",
               "name": "bossac",
-              "version": "1.3a-arduino"
+              "version": "1.3-a-arduino"
             }
           ]
         },
@@ -443,7 +443,7 @@
         },
         {
           "name": "bossac",
-          "version": "1.3a-arduino",
+          "version": "1.3-a-arduino",
           "systems": [
             {
               "host": "i686-linux-gnu",
